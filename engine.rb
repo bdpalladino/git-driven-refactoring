@@ -18,6 +18,6 @@ class engine
   end
 
   def engine_power
-    puts '50 watts!'
+    puts '1.21 giga watts!'
   end
 end
