@@ -12,4 +12,8 @@ class bad_commit_messages
   def rename_variable
     # 'Rename variable' is also a bad message
   end
+
+  def style_cops
+    # you get the idea
+  end
 end
