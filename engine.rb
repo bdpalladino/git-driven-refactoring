@@ -9,6 +9,10 @@ class engine
     puts "Start Engine"
   end
 
+  def delay_remote_start
+    puts "Delay remote start"
+  end
+
   def hill_assist
     puts "Increase power if going up hill"
   end
