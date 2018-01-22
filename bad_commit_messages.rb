@@ -4,4 +4,8 @@ class bad_commit_messages
   def complete
     # 'Completed' is a bad commit message
   end
+
+  def tests
+    # 'Tests' is also a bad message
+  end
 end
