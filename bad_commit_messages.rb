@@ -8,4 +8,8 @@ class bad_commit_messages
   def tests
     # 'Tests' is also a bad message
   end
+
+  def rename_variable
+    # 'Rename variable' is also a bad message
+  end
 end
