@@ -16,4 +16,8 @@ class engine
   def hill_assist
     puts "Increase power if going up hill"
   end
+
+  def engine_power
+    puts "50 watts!"
+  end
 end
