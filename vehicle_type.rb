@@ -19,7 +19,7 @@ module vehicle_types
   end
 end
 
-module vehical_light_turner_oner
+module vehicle_light_turner_oner
   # use of is_a? and respond_to might also be signs LSP is being violated
   def turn_on_the_lights(vehicle)
     if vehicle.is_a? Car
@@ -32,6 +32,7 @@ module vehical_light_turner_oner
       puts 'Vehicle'
       vehicle.turn_on_lights
     end
-      
   end
 end
+
+
